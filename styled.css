@@ -1,0 +1,73 @@
+body {
+  background-image: url("./bg.webp");
+  margin: 0px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  color: white;
+  padding: 20px;
+  font-family: "Ubuntu", sans-serif;
+  position: sticky;
+  top: 0px;
+}
+.logo {
+  display: inline-block;
+  width: 150px;
+  font-size: larger;
+  font-weight: 500;
+}
+.navbox {
+  display: inline-block;
+  width: 600px;
+  position: absolute;
+  right: 20px;
+}
+.navbox > a {
+  color: white;
+  padding: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.navbox > a:hover {
+  color: salmon;
+}
+.name {
+  color: white;
+  font-size: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: relative;
+  top: 70px;
+  left: 60px;
+}
+.body {
+  color: ghostwhite;
+  position: relative;
+  top: 80px;
+  padding: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  width: 600px;
+  word-spacing: 3px;
+}
+.button {
+  position: relative;
+  top: 100px;
+  left: 60px;
+  padding: 15px;
+  background-color: black;
+  border-radius: 5px;
+  color: rgb(9, 9, 9);
+  font-size: large;
+  background-color: initial;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid black;
+}
+.button:hover {
+  color: crimson;
+  border: 1px solid crimson;
+}

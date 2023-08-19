@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <style>
+      div {
+        height: 100px;
+        width: 100px;
+      }
+      .container {
+        border: 2px solid black;
+        position: relative;
+        top: 20px;
+        left: 20px;
+        height: 1000px;
+        width: initial;
+      }
+      #first {
+        background-color: green;
+        width: initial;
+        position: sticky;
+        top: 0px;
+      }
+      #second {
+        background-color: orange;
+      }
+      #third {
+        background-color: blue;
+        position: fixed;
+        bottom: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="first">1</div>
+      <div id="second">2</div>
+      <div id="third">3</div>
+    </div>
+  </body>
+</html>

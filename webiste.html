@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>HTML</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form">
+        <form action="submit.js" method="POST">
+          <h1>Contact US</h1>
+          <div class="name">
+            Name :
+            <input type="text" name="username" id="username" required />
+          </div>
+          <br />
+          <div class="email">
+            E-Mail :
+            <input type="email" name="email" id="email" required />
+          </div>
+          <br />
+          <div class="message">
+            Message :
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <br />
+          <div class="contact">
+            Contact No :
+            <input type="number" name="number" id="number" required />
+          </div>
+          <br />
+          <div class="gender">
+            Gender :
+            <select name="gender" id="gender" required>
+              <option value="" style="font-weight: 600">Choose the one</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="transgender">Transgender</option>
+            </select>
+          </div>
+          <br />
+          <div class="skills">
+            Skills -> FrontEnd :
+            <input type="checkbox" name="skills" id="frontend" /> BackEnd :
+            <input type="checkbox" name="skills" id="backend" />
+          </div>
+          <br />
+          <fieldset class="payment">
+            <legend>Payment Mode</legend>
+            <div>
+              Online :
+              <input type="radio" name="payment" id="online" /> Cash :
+              <input type="radio" name="payment" id="cash" />
+            </div>
+            <br />
+          </fieldset>
+
+          <div class="password">
+            Password : <input type="password" name="password" id="password" />
+          </div>
+          <br />
+          <div class="submit">
+            <input type="submit" value="Submit" />
+          </div>
+          <br />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+<br />

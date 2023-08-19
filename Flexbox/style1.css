@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 0 1px black;
+  height: 4vmax;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.logo {
+  width: 20%;
+  margin-left: 10px;
+}
+.navigation {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navigation > a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+}
+.navigation :hover {
+  color: crimson;
+}
+.profile {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    to right,
+    rgba(96, 200, 232, 0.422),
+    rgba(70, 70, 186, 0.399)
+  );
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+.left > button {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  background-color: crimson;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 15vmax;
+  justify-content: center;
+  align-self: flex-start;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.left > button:hover {
+  color: black;
+}
+.left > p {
+  margin-left: 20px;
+  font-size: larger;
+  font-weight: 50;
+}
+.left > h1 {
+  margin-left: 20px;
+}
+.left > h3 {
+  margin-left: 20px;
+  margin-bottom: 3vmax;
+  font-weight: 300;
+}
+.products > h1 {
+  margin-top: 30px;
+  text-align: center;
+  border-bottom: 2px solid crimson;
+  margin: 5vmax auto;
+  width: 25vmax;
+}
+.productsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: inherit;
+  width: 80vw;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.product {
+  height: 30vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.product > img {
+  width: 17vmax;
+}
+.product > h3 {
+  margin-top: -1px;
+}
+.product:hover {
+  transform: translateY(-5px);
+}
+footer {
+  height: 15vmax;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  padding: 10px;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100%;
+  justify-content: center;
+  margin-left: 10px;
+  gap: 10px;
+}
+.app > h1 {
+  color: white;
+  font-size: large;
+}
+.app > p {
+  color: whitesmoke;
+}
+.app > img {
+  width: 10vmax;
+  cursor: pointer;
+}
+.data {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.data > h1 {
+  color: crimson;
+}
+.data > p {
+  color: white;
+}
+.social {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.social > h1,
+a {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+
+.social > a:hover {
+  color: crimson;
+}
